@@ -116,8 +116,8 @@ let intervalId;
     document.querySelector('.js-result').innerHTML = result;
 
     document.querySelector('.js-move').innerHTML = ` You
-    <img src="${playerMove}-emoji.png" class="move-icon">
-    <img src="${computerMove}-emoji.png" class="move-icon">
+    <img src="./${playerMove}-emoji.png" class="move-icon">
+    <img src="./${computerMove}-emoji.png" class="move-icon">
     Computer`;
      }
 
@@ -141,3 +141,4 @@ let intervalId;
     return computerMove;     
 
     }
+
